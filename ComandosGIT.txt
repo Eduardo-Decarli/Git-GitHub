@@ -1,0 +1,2 @@
+git --version -> Verifica a versão do Git instalada
+
