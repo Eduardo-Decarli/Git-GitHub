@@ -12,5 +12,7 @@ Se você omitir o --global, a configuração será aplicada apenas ao repositór
 */
 
 git config --global user.email "seu-email@exemplo.com" -> Configura o email default utilizado pelo dispositivo
+
 git config --global --list -> Lista todas as configurações globais do dispositivo
+
 Git config --global init.default branch main -> Declara que todo repositório iniciado no git terá a branch main como padrão
