@@ -1,18 +1,29 @@
 # Comandos de Configurações
 
-git config --global user.name "Seu Nome" -> Define o nome default do dispositivo
+**git config --global user.name "Seu Nome"**  
+Define o nome default do dispositivo. Substitua "Seu Nome" pelo nome que você deseja que apareça nos commits.
 
-/*
-git config -> é o comando usado para definir configurações no Git.
+---
 
---global faz com que essa configuração seja aplicada a todos os repositórios no sistema. 
-Se você omitir o --global, a configuração será aplicada apenas ao repositório atual.
+**git config**  
+Comando usado para definir configurações no Git.
 
-"Seu Nome" deve ser substituído pelo nome que você deseja que apareça nos commits.
-*/
+---
 
-git config --global user.email "seu-email@exemplo.com" -> Configura o email default utilizado pelo dispositivo
+**--global**  
+Aplica a configuração a todos os repositórios no sistema. Se você omitir o --global, a configuração será aplicada apenas ao repositório atual.
 
-git config --global --list -> Lista todas as configurações globais do dispositivo
+---
 
-Git config --global init.default branch main -> Declara que todo repositório iniciado no git terá a branch main como padrão
+**git config --global user.email "seu-email@exemplo.com"**  
+Configura o e-mail default utilizado pelo dispositivo. Substitua "seu-email@exemplo.com" pelo e-mail que deseja usar nos commits.
+
+---
+
+**git config --global --list**  
+Lista todas as configurações globais do dispositivo.
+
+---
+
+**git config --global init.defaultBranch main**  
+Declara que todo repositório iniciado no Git terá a branch `main` como padrão, em vez de `master`.
