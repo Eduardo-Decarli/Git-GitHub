@@ -16,12 +16,12 @@ Comando usado para definir configurações no Git.
 ---
 
 **--global**  
-Aplica a configuração a todos os repositórios no sistema. Se você omitir o --global, a configuração será aplicada apenas ao repositório atual.
+Propriedade de um comando que aplica a configuração a todos os repositórios no sistema. Se você omitir o --global, a configuração será aplicada apenas ao repositório atual.
 
 ---
 
-**git config --global user.email "seu-email@exemplo.com"**  
-Configura o e-mail default utilizado pelo dispositivo. Substitua "seu-email@exemplo.com" pelo e-mail que deseja usar nos commits.
+**git config --global user.email "exemplo@exemplo.com"**  
+Configura o e-mail default utilizado pelo dispositivo. Substitua "exemplo@exemplo.com" pelo e-mail que deseja usar nos commits.
 
 ---
 

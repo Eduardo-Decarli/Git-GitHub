@@ -2,16 +2,16 @@
 
 ## 🚀 GIT
 
-**Git** é um sistema de controle de versão distribuído que permite:
+**Git** é um sistema de controle de versão que permite:
 
 - Rastrear alterações em arquivos.
 - Coordenar o trabalho em projetos entre várias pessoas.
 - Armazenar versões do código em um repositório local.
-- Voltar a versões anteriores.
-- Criar ramificações independentes para novos recursos.
-- Mesclar alterações e colaborar com eficiência em equipes.
+- Voltar versões anteriores do projeto.
+- Criar e mesclar ramificações para novos recursos.
 
-Git é essencial para o desenvolvimento colaborativo, especialmente em projetos de software.
+
+Git é essencial para o desenvolvimento colaborativo, é muito utilizado no desenvolvimento de softwares para se manter o controle adequado do projeto.
 
 ---
 
@@ -19,7 +19,7 @@ Git é essencial para o desenvolvimento colaborativo, especialmente em projetos 
 
 **GitHub** é uma plataforma online que hospeda repositórios Git, permitindo que desenvolvedores:
 
-- Armazenem e compartilhem seus repositórios na nuvem.
+- Armazenem e compartilhem seus repositórios remotamente.
 - Usem controle de versão de maneira eficiente.
 
 Além disso, o GitHub oferece ferramentas poderosas de colaboração, como:
@@ -27,7 +27,6 @@ Além disso, o GitHub oferece ferramentas poderosas de colaboração, como:
 - Revisão de código.
 - Relatórios de problemas (issues).
 - Integração contínua e implantação (CI/CD).
-- Interface gráfica amigável para facilitar o uso do Git.
 
 ---
 
@@ -48,14 +47,14 @@ Essas ferramentas tornam a interação com o Git no **Windows** mais fácil e ef
 
 ## 🌿 Branch (Ramificações)
 
-No **Git**, um **branch** (ou ramificação) é uma linha independente de desenvolvimento. Ao criar um branch, você está criando uma cópia do seu código em um ponto específico, permitindo que você faça mudanças sem afetar o branch principal (geralmente chamado de `main` ou `master`).
+No **Git**, uma **branch** (ou ramificação) é uma linha independente de desenvolvimento. Ao criar um branch, você está criando uma cópia do seu código em um ponto específico, permitindo que você faça mudanças sem afetar a branch principal (geralmente chamada de `main`).
 
 **Principais vantagens de usar branches:**
 
-- **Desenvolvimento de novos recursos**: Cada novo recurso ou correção de bug pode ser desenvolvido em seu próprio branch, sem interferir no código principal.
+- **Desenvolvimento de novos recursos**: Cada novo recurso ou correção de bug pode ser desenvolvido em sua própria branch, sem interferir no código principal.
 - **Isolamento**: Permite que várias pessoas trabalhem em diferentes partes do projeto ao mesmo tempo, sem gerar conflitos.
 - **Segurança**: Ao trabalhar em um branch separado, o código principal não será afetado até que as mudanças sejam testadas e aprovadas.
-- **Facilidade de mesclagem**: Após finalizar o desenvolvimento ou correção no branch, é possível mesclá-lo (merge) ao branch principal, incorporando as mudanças.
+- **Facilidade de mesclagem**: Após finalizar o desenvolvimento ou correção na branch, é possível mesclar (merge) ela à branch principal, incorporando as mudanças.
 
 ---
 

@@ -10,13 +10,12 @@ O objetivo deste repositório é servir como uma referência rápida para quem e
 
 Você pode navegar pelo arquivo `.md` deste repositório e encontrar os comandos de configuração e uso do Git, junto com uma breve descrição do que cada comando faz.
 
-### Exemplos Incluídos
+### Git na Teoria
 
-- Comandos básicos de configuração
-- Como inicializar um repositório
-- Como fazer commits e visualizar o histórico
-- Operações com branches
-- Envio de código para repositórios remotos
+- O que é o Git
+- O que é o GitHub 
+- O que significa Branchs
+- O que é o GitBash
 
 ## Tópicos Abordados
 
