@@ -18,7 +18,7 @@
 
 ---
 
-## 🔄 Inicialização e Configuração
+## 🔄 Inicialização 
 
 - **git init**  
   Cria a pasta `.git` no projeto e começa a rastrear as modificações.
@@ -35,6 +35,9 @@
 
 - **git rm --cached arquivoEspecifico**  
   Remove o arquivo da área de stage, sem deletá-lo do diretório.
+
+  **git reset**
+  Remove todos os arquivos da área de stage
 
 ---
 
@@ -60,7 +63,7 @@
   Exibe um histórico mais detalhado, com diferenças entre os commits.
 
 - **git log --oneline**  
-  Mostra um resumo do histórico de commits em uma única linha por commit.
+  Exibe um histórico resumido de commits em uma única linha por commit.
 
 - **git diff**  
   Mostra as diferenças entre as versões atuais e anteriores dos arquivos.
@@ -78,12 +81,15 @@
 - **git checkout nomeDaBranch**  
   Troca para a branch especificada.
 
+  **git switch nomeDaBranch**
+  Possui a mesma funcionalidade do checkout, usado para trocar de branch.
+
 - **git branch -d nomeDaBranch**  
   Deleta a branch especificada.
 
 ---
 
-## 🚀 Push e Repositórios Remotos
+## 🚀 Push
 
 - **git push origin main**  
   Envia a branch `main` para o repositório remoto.
