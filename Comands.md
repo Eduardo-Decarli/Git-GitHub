@@ -23,6 +23,15 @@
 - **git init**  
   Cria a pasta `.git` no projeto e começa a rastrear as modificações.
 
+- **git remote add origin linkDoRepositorio**
+  Adiciona um repositório remoto ao projeto.
+
+- **git remote -v**
+  Lista todos os repositórios remotos no projeto.
+
+- **git remote set-url origin linkDoRepositorio**
+  Troca o repositorio remoto caso já tenha sido adicionado.
+
 ---
 
 ## 📝 Adição e Remoção de Arquivos
@@ -92,14 +101,17 @@
 ## 🚀 Push
 
 - **git push origin main**  
-  Envia a branch `main` para o repositório remoto.
+  Envia a b'ranch `main` para o repositório remoto.
 
 - **git push --all**  
   Envia todas as branches locais para o repositório remoto.
 
+- **git push -f**
+  Força o envio dos commits locais para o remoto, isso fará o remoto perder qualquer commit dessincronizado com o local.
+
 ---
 
-## 🔄 Reset e Recuperação
+## 🔄 Delete, Reset e Recuperação de Commits
 
 - **git reset**  
   Utilizado para retornar a um commit anterior, desfazendo mudanças.
@@ -113,6 +125,9 @@
 - **git restore nomeDoArquivo**  
   Restaura o arquivo para a versão de um commit anterior.
 
+- **git clean -df**
+  Descarta todas as alterações feitas desde o ultimo commit.
+
 ---
 
 ## 📂 Movimentação de Arquivos
@@ -121,3 +136,20 @@
   Renomeia o arquivo, informando o Git da mudança.
 
 ---
+
+## 📝 Editor Vim
+
+- **vim nomeDoArquivo**  
+  Abre um arquivo no Vim para edição.
+
+- **:q**  
+  Sai do Vim (se não houver mudanças).
+
+- **:q!**  
+  Sai do Vim sem salvar as mudanças.
+
+- **:w**  
+  Salva o arquivo.
+
+- **:wq**  
+  Salva e sai do Vim.

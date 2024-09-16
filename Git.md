@@ -58,5 +58,11 @@ No **Git**, uma **branch** (ou ramificação) é uma linha independente de desen
 
 ---
 
+## 📝 Editor Vim
+
+O **Vim** é um editor de texto poderoso e eficiente utilizado frequentemente por desenvolvedores para editar arquivos diretamente no terminal. Aqui estão os comandos básicos para começar:
+
+---
+
 📖 *Com Git e GitHub você tem um conjunto completo de ferramentas para versionamento de código e colaboração no desenvolvimento de software!*
 
